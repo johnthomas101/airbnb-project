@@ -1,0 +1,110 @@
+html{
+    height: 100%;
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+body{
+    margin: 0px;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.footerStyle{
+    background-color: #4ea29f;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.bodyStyle{
+    background: linear-gradient(#3bea9b, #ca98d1);
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+.headerStyle{
+    background-color: #4ea29f;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.bodyContent{
+    width: 600px;
+}
+
+.headerContent{
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.footerContent{
+    width: 600px;
+}
+
+.headerButton{
+    flex-basis: 70%;
+}
+
+.headerLinks{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonStyle{
+    color: white;
+    background-color: grey;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.headerRow{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.verticalGap20{
+    height: 20px;
+}
+.verticalGap10{
+    height: 10px;
+}
+
+.spaceHeader{
+    font-size: 16px;
+    color: blue;
+}
+
+.spaceContent table{
+    width: 100%;
+} 
+
+.spaceContent table td{
+    padding: 4px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.iconStyle{
+    width: 20px;
+}
+
+.inputBox{
+    height: 30px;
+    width: 100%;
+}
+.hrStyle{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
